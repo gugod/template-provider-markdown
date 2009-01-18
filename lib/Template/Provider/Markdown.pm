@@ -1,5 +1,5 @@
 package Template::Provider::Markdown;
-use v5.8.0;
+use 5.008;
 use warnings;
 use strict;
 use Text::Markdown 'markdown';
@@ -12,11 +12,11 @@ Template::Provider::Markdown - Markdown as template body, no HTML.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.04
 
 =cut
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 =head1 SYNOPSIS
 
@@ -94,7 +94,7 @@ L<http://search.cpan.org/dist/Template-Provider-Markdown>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2006 Kang-min Liu, all rights reserved.
+Copyright 2006,2007,2008,2009 Kang-min Liu, all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
@@ -102,3 +102,4 @@ under the same terms as Perl itself.
 =cut
 
 1; # End of Template::Provider::Markdown
+
